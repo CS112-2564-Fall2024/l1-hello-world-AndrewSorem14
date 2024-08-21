@@ -13,7 +13,7 @@ public class Main {
     }
 
     CPU Ryzen1 = new CPU("AMD", "7950X3D", 4.2);
-    System.out.println(Ryzen1.toString());
+    System.out.println(CPU.toString());
     
 }
 
