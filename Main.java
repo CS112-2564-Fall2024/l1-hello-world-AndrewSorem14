@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to CS 112!");
+        CPU ryzen1 = new CPU("AMD", "7950X3D", 4.2);
+        System.out.println(CPU.toString());
     }
 
     public static void welcomeMSG() {
@@ -11,8 +13,5 @@ public class Main {
         double GPA = (grade1 + grade2 + grade3 + grade4) / 4.0;
         return GPA;
     }
-
-    CPU ryzen1 = new CPU("AMD", "7950X3D", 4.2);
-    System.out.println(CPU.toString());
     
 }
