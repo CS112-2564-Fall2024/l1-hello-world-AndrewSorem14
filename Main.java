@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to CS 112!");
         CPU ryzen1 = new CPU("AMD", "7950X3D", 4.2);
-        System.out.println(CPU.toString());
+        System.out.println(ryzen1.toString());
     }
 
     public static void welcomeMSG() {
